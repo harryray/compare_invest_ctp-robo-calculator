@@ -1,0 +1,43 @@
+.repeater .robo-delete-button {
+    cursor: pointer;
+    color: #a00;
+    opacity: 1;
+    -webkit-appearance: none !important;
+    background: none !important;
+    border: none !important;
+    position: absolute;
+    left: 0;
+    top: .5em;
+    line-height: 1em;
+    padding: 2px 6px 3px;
+
+}
+
+.repeater .robo-delete-button:before {
+    content: "\f335";
+}
+
+.repeater .robo-delete-button:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#robo_product_details_repeat .cmbhandle-title, #robo_product_details_repeat .cmbhandle,
+#ratings_details_repeat .cmbhandle, #ratings_details_repeat .cmbhandle-title,
+#robo_details_repeat .cmbhandle, #robo_details_repeat .cmbhandle-title,
+#product_details_repeat .cmbhandle, #product_details_repeat .cmbhandle-title
+{
+    display: none;
+}

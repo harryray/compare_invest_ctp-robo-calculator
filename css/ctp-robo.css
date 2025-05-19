@@ -1,0 +1,1407 @@
+.robo-button {
+    padding: 12px 40px;
+    background: #77C79D;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 2px;
+    color: white;
+    margin-top: 10px;
+}
+
+.robo-saving-btn,
+.robo-save-btn {
+    background: #F1674E;
+}
+
+.robo-save-btn,
+.continue {
+    background: #77C79D;
+    border-radius: 0;
+    border: none;
+    border: 0;
+    padding: 17px 70px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.robo-data .save-robo-charges {
+    margin-top: 20px;
+}
+
+#robo-sortables {
+    margin-bottom: 20px;
+}
+
+.robo-data thead tr th {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.robo-data thead tr {
+    background: #F9F9F9;
+    border: 1px solid #e8e8e8;
+}
+
+.robo-data tbody tr th {
+    text-align: center;
+    border: 1px solid #ededed;
+    width: 250px;
+    padding: 0 5px;
+    color: #aaa9a9;
+    font-family: "Open Sans", sans-serif;
+}
+
+.robo-data td {
+    text-align: center;
+    border: 1px solid #ededed;
+    padding: 0;
+}
+
+.robo-data tfoot td {
+    text-align: left;
+    border: none;
+}
+
+.robo-data input[type="text"] {
+    padding-left: 15px;
+    padding-right: 5px;
+    text-align: left;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.robo-data select:focus,
+.robo-data input[type="text"]:focus {
+    outline: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.robo-data input[type="checkbox"] {
+    margin: 0;
+}
+
+
+.robo-data td.active,
+.robo-data td.active input {
+    background: #fff5f3;
+}
+
+.percentage-input:before {
+    position: absolute;
+    top: 0;
+    content: "%";
+    left: 5px;
+}
+
+.robo-data td.currency-value,
+.robo-data td.number-value {
+    text-align: right;
+}
+
+.page-template-template-calculator-user-submit .step-2 label {
+    line-height: 36px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.page-template-template-calculator-user-submit label {
+    display: block;
+}
+
+.page-template-template-calculator-user-submit .indented label,
+.page-template-template-calculator-user-submit .indented .label {
+    padding-left: 60px;
+}
+
+
+#investment_products_no,
+#investment_stocks_shares_no,
+#planning_invest_no,
+#planning_stocks_shares_no,
+#investment_frequency_yearly {
+    margin-left: 30px;
+}
+
+.cplat-robo-submit-form-container .indented input[type="text"], .page-template-template-calculator-user-submit .indented input[type="text"] {
+    width: 140px;
+}
+
+.page-template-template-calculator-user-submit .help {
+    width: 22px;
+    height: 22px;
+    padding-left: 1px;
+    line-height: 19px;
+    border-radius: 15px;
+    border: 2px solid #F1674E;
+    display: inline-block;
+    color: #F1674E;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 37px;
+    float: right;
+    cursor: help;
+}
+
+.cplat-robo-submit-form-container .input-with-hint, .page-template-template-calculator-user-submit .input-with-hint {
+    max-width: 220px;
+}
+
+.cplat-robo-submit-form-container input[type='text'], body.page-template-template-calculator-user-submit input[type="text"] {
+    padding-left: 15px;
+}
+
+.cplat-robo-submit-form-container .currency, .page-template-template-calculator-user-submit .currency {
+    position: absolute;
+    left: 28px;
+    top: 17px;
+    font-style: italic;
+}
+
+.page-template-template-calculator-user-submit .step-1 input[type="text"],
+.page-template-template-calculator-user-submit .step-2 input[type="text"],
+.page-template-template-calculator-user-submit .step-3 input[type="text"] {
+    text-align: right;
+}
+
+.page-template-template-calculator-user-submit input[type="text"],
+.page-template-template-calculator-user-submit textarea {
+    color: #404041;
+}
+
+.cplat-robo-submit-form-container input[type='checkbox'], .page-template-template-calculator-user-submit input[type="checkbox"],
+.cplat-robo-submit-form-container input[type='radio'], .page-template-template-calculator-user-submit input[type="radio"] {
+    /* width: 24px;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    opacity: 0;
+    cursor: pointer; */
+}
+
+.cplat-robo-submit-form-container input[type='checkbox'] + label, .page-template-template-calculator-user-submit input[type="checkbox"] + label,
+.cplat-robo-submit-form-container input[type='radio'] + label, .page-template-template-calculator-user-submit input[type="radio"] + label {
+    /* display: inline-block;
+    margin-left: -2em;
+    line-height: 2.5em;
+    cursor: pointer; */
+}
+
+.cplat-robo-submit-form-container input[type='checkbox'] + label > span, .page-template-template-calculator-user-submit input[type="checkbox"] + label > span,
+.cplat-robo-submit-form-container input[type='radio'] + label > span, .page-template-template-calculator-user-submit input[type="radio"] + label > span {
+    /* display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 3px 6px 3px 3px;
+    border: 1px solid #c0c1c0;
+    border-radius: 15px;
+    vertical-align: bottom;
+    cursor: pointer; */
+}
+
+.cplat-robo-submit-form-container input[type="checkbox"]:checked + label > span > span, .page-template-template-calculator-user-submit input[type=checkbox]:checked + label > span > span,
+.cplat-robo-submit-form-container input[type=radio]:checked + label > span > span, .page-template-template-calculator-user-submit input[type=radio]:checked + label > span > span {
+    /* display: block;
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+    border-radius: 15px;
+    background: #F1674E;
+    cursor: pointer; */
+}
+
+label[for="investment_frequency_monthly"] {
+    margin-top: 13px;
+}
+
+.page-template-template-calculator-user-submit .help.investment_frequency-description {
+    margin-top: 14px;
+}
+
+.page-template-template-calculator-user-submit .help.total-in-investment-products-description {
+    margin-top: 13px;
+}
+
+#total_investment_products_no {
+    margin-left: 20px;
+}
+
+
+.cplat-robo-submit-form-container select#robo {
+    display: inline-block;
+    width: 80%;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    height: calc(1.8125rem + 2px);
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    padding-left: 15px;
+
+}
+
+/*RSPL Task#44*/
+@media screen and (max-width: 1199.98px) {
+    .cplat-robo-submit-form-container { width: auto !important; }
+}
+
+@media screen and (max-width: 720px) {
+
+
+}
+
+.robo-result-item .desc,
+.post-content .robo-result-item h4 {
+    color: #828383;
+}
+
+.robo-result-item h4 {
+    text-transform: uppercase;
+    margin: -2px 0 5px 0;
+}
+
+.robo-result-item .col-lg-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.robo-cost {
+    margin-bottom: 10px;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a.robo-result-more-details {
+    /* color: #F1674E; */
+}
+
+.cplat-robo-submit-form-container .result-filter-box {
+    max-width: 138px;
+    margin-bottom: 20px;
+}
+
+.cplat-robo-submit-form-container .results-table {
+    width: 100%;
+    border-top: 1px solid #e2e2e2;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+#robo-form span.help {
+    /*margin-top: 10px;*/
+    margin-top: 5px;
+}
+
+#robo-form .min_inv_val .selectric .label {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 35px 0 10px;
+    font-size: 12px;
+    line-height: 35px;
+    color: #444;
+    height: 35px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+    padding: 0;
+    min-width: 100px;
+
+
+}
+
+#robo-form .selectric {
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.question-label-1,
+question-label-calc,
+.question-label-1a,
+.question-label-2,
+.question-label-2a,
+.question-label-3,
+.question-label-3a,
+.question-label-3b,
+.question-label-4,
+.question-label-5,
+.question-label-6,
+.question-label-6a,
+.question-label-7,
+.question-label-8,
+.question-label-8a,
+.question-label-9,
+.question-label-10,
+.question-label-11,
+.question-label-12, .question-label-13, .question-label-14 {
+    padding-left: 30px;
+    position: relative;
+}
+
+.question-label-1:before,
+.question-label-2:before,
+.question-label-3:before,
+.question-label-4:before,
+.question-label-5:before,
+.question-label-6:before,
+.question-label-7:before,
+.question-label-8:before,
+.question-label-9:before,
+.question-label-10:before,
+.question-label-11:before,
+.question-label-12:before, .question-label-13:before, .question-label-14:before {
+    position: absolute;
+    left: 0;
+}
+
+.question-label-1:before {
+    content: "1.";
+}
+
+.question-label-2:before {
+    content: "2.";
+}
+
+.question-label-3:before {
+    content: "3.";
+}
+
+.question-label-4:before {
+    content: "4.";
+}
+
+.question-label-5:before {
+    content: "5.";
+}
+
+.question-label-6:before {
+    content: "6.";
+}
+
+.question-label-7:before {
+    content: "7.";
+}
+
+.question-label-8:before {
+    content: "8.";
+}
+
+.question-label-9:before {
+    content: "9.";
+}
+
+.question-label-9a:before {
+    content: "9a.";
+}
+
+.question-label-9b:before {
+    content: "9b.";
+}
+
+.question-label-10:before {
+    content: "10.";
+}
+
+.question-label-11:before {
+    content: "11.";
+}
+
+.question-label-12:before {
+    content: "12.";
+}
+
+.question-label-13:before {
+    content: "13.";
+}
+
+.question-label-14:before {
+    content: "14.";
+}
+
+.page-template-template-calculator-user-submit .indented .label {
+    padding-left: 30px;
+}
+
+.continue-to-right input:read-only {
+    background: #77C79D;
+}
+
+#robo {
+    margin-top: 15px;
+}
+
+.cplat-robo-submit-form-container .help {
+    margin-right: 0 !important;
+}
+
+
+.cplat-robo-submit-form-container {
+    /*width: 820px;*/
+    /* max-width: 820px; */
+    margin: 0 auto 50px auto;
+    background: white;
+    /* padding: 40px 80px; */
+}
+
+.results-calculator-box .fusion-accordian #result-accordion .panel-title a .fa-fusion-box {
+    color: #ffffff;
+}
+
+.results-calculator-box .fusion-accordian #result-accordion .panel-title a .fa-fusion-box:before {
+    font-size: 13px;
+    width: 13px;
+}
+
+.results-calculator-box .fusion-accordian #result-accordion .panel-title a {
+    font-size: 14px;
+}
+
+.results-calculator-box .fusion-accordian #result-accordion .fa-fusion-box {
+    background-color: #333;
+    border-color: #333;
+    opacity: .9;
+    color: #fff;
+}
+.result-item-header--robo > .row {
+    width: 100%;
+}
+.results-calculator-box .fusion-accordian #result-accordion .panel-title a:hover, #result-accordion .fusion-toggle-boxed-mode:hover .panel-title a {
+    color: #f44336;;
+}
+
+.results-calculator-box .fusion-accordian #result-accordion .panel-title .active .fa-fusion-box, .fusion-accordian #result-accordion .panel-title a:hover .fa-fusion-box {
+    background-color: #f44336 !important;
+    border-color: #f44336 !important;
+
+}
+
+.results-calculator-box .fusion-accordian .fusion-panel {
+    border-style: none !important;
+    border-bottom: 1px solid !important;
+    border-color: #e5e4e3;
+
+}
+/*RSPL Task#43*/
+.cplat-robo-submit-form-container div.result-main-col {
+    /*width: 147px;*/
+    /*RSPL Task#71 Starts*/
+    /*width: 125px;*/
+    /*RSPL Task#71 Ends*/
+    /*width: 123px;*/
+    float: left;
+    min-height: 30px;
+    /*margin-right: 15px;*/
+    vertical-align: center;
+    text-align: center;
+    width: 15.9%;
+}
+
+
+.cplat-robo-submit-form-container div.result-main-col.robo-info {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 14px;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+    padding: 5px 0 0;
+}
+
+.cplat-robo-submit-form-container .result-main-col:first-child {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.cplat-robo-submit-form-container .ecc-robo {
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 90px;
+}
+
+.cplat-robo-submit-form-container .results-found {
+    margin-top: 12px;
+}
+
+.cplat-robo-submit-form-container .robo-link {
+    line-height: 30px;
+    background: #77c79d !important;
+    border: 1px solid #77c79d;
+    color: white;
+    padding: 1px 7px 2px;
+    display: inline-block;
+    height: 35px;
+    font-size: 13px;
+    /*float: right;*/
+    float: left;
+    margin-top: 15px;
+    /*width: 100%;*/
+    width: 115px;
+}
+
+.cplat-robo-submit-form-container span.currency {
+    color: rgba(170, 169, 169, 0.47);
+    position: absolute;
+    left: 20px;
+    top: 14px;
+    font-size: 14px;
+}
+
+.cplat-robo-submit-form-container .indented label {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-left: 30px !important;
+}
+
+.cplat-robo-submit-form-container .radio-label {
+    margin-top: -5px;
+
+}
+
+.cplat-robo-submit-form-container label.dropdown {
+    margin-top: 0;
+
+}
+
+.cplat-robo-submit-form-container label.robo-img {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cplat-robo-submit-form-container label.robo-img img {
+    max-height: 40px;
+    vertical-align: top;
+}
+/*
+.cplat-robo-submit-form-container input[type='text'] {
+    text-align: right;
+}*/
+
+@media screen and (max-width: 720px) {
+    .cplat-robo-submit-form-container {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .cplat-robo-submit-form-container .robo-result-item .result-main-col, .result-main-col:last-child, .result-main-col {
+        float: none;
+        width: 100%;
+    }
+
+    .cplat-robo-submit-form-container div.result-main-col.ecc-info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cplat-robo-submit-form-container .robo-result-item {
+        text-align: center;
+    }
+}
+
+.cplat-robo-submit-form-container .summary-label {
+    margin-top: 10px;
+    float: left;
+}
+
+.cplat-robo-submit-form-container .indented label[for='general-investments'] {
+    margin-top: 10px;
+}
+
+.cplat-robo-submit-form-container [class*="question-label-"] {
+    line-height: 18px;
+}
+
+.cplat-robo-submit-form-container .result-item-header {
+
+    /* height: 85px; */
+}
+
+.cplat-robo-submit-form-container .result-item-header .row {
+
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cplat-robo-submit-form-container .help-header .result-main-col {
+
+    margin-top: -29px;
+}
+
+.cplat-robo-submit-form-container .result-item-header span {
+/*    margin: 0 auto !important;*/
+    float: none !important;
+}
+
+.cplat-robo-submit-form-container .main-row {
+    padding-top: 16px;
+}
+
+/*
+.cplat-robo-submit-form-container input[type="text"].name-this-search {
+    max-width: 255px !important;
+}*/
+
+span.number-value {
+    text-align: right;
+}
+
+.cplat-robo-submit-form-container .continue-to-right {
+    float: right;
+}
+
+.cplat-robo-submit-form-container .invalid-error {
+    visibility: hidden;
+}
+
+.cplat-robo-submit-form-container .ctp-error {
+    color: red;
+}
+
+.cplat-robo-submit-form-container .error-message {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
+
+.cplat-robo-submit-form-container .error-message, .cplat-robo-submit-form-container .results-table-summary {
+    display: none;
+}
+
+/* Error Styling
+
+.cplat-robo-submit-form-container .error label {
+    color: #cc0033;
+}
+*/
+.cplat-robo-submit-form-container .error input[type=text], .cplat-robo-submit-form-container .error .selectric {
+    border: 1px solid #cc0033 !important;
+    outline: none;
+}
+
+.cplat-robo-submit-form-container .error .error-message {
+    display: inline-block;
+}
+
+.cplat-robo-submit-form-container .results-table-summary {
+    width: 100%;
+}
+
+.cplat-robo-submit-form-container .results-product-row {
+    padding: 0 10px;
+}
+
+div.ecc-img {
+    text-align: center;
+}
+
+.cplat-robo-submit-form-container .robo-error-message {
+    margin-left: 30px;
+}
+
+.cplat-robo-submit-form-container .ecc-results-details-div {
+    margin-top: -10px;
+}
+
+.cplat-robo-submit-form-container .results-details h4.results-details-subheading {
+    padding-left: 15px;
+}
+
+.cplat-robo-submit-form-container .result-product-col {
+    width: 90px;
+}
+
+.cplat-robo-submit-form-container .indented input[type="radio"] + label {
+    /* display: inline-block;
+    margin-left: -2em;
+    line-height: 2.5em;
+    cursor: pointer; */
+}
+
+.cplat-robo-submit-form-container input[type='checkbox'],
+.cplat-robo-submit-form-container input[type='radio'] {
+    /* width: 24px;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    opacity: 0;
+    cursor: pointer; */
+}
+
+.cplat-robo-submit-form-container input[type='checkbox'] + label,
+.cplat-robo-submit-form-container input[type='radio'] + label {
+    /* display: inline-block;
+    margin-left: -2em;
+    line-height: 2.5em;
+    cursor: pointer; */
+}
+
+.cplat-robo-submit-form-container input[type='checkbox'] + label > span,
+.cplat-robo-submit-form-container input[type='radio'] + label > span {
+    /* display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 3px 6px 3px 3px;
+    border: 1px solid #c0c1c0;
+    border-radius: 15px;
+    vertical-align: bottom;
+    cursor: pointer; */
+}
+
+.cplat-robo-submit-form-container input[type="checkbox"]:checked + label > span > span,
+.cplat-robo-submit-form-container input[type=radio]:checked + label > span > span {
+    /* display: block;
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+    border-radius: 15px;
+    background: #F1674E;
+    cursor: pointer; */
+}
+
+.robo-result-item.stripe .main-row {
+    background: white;
+}
+
+.robo-result-item.first .main-row {
+    border-top: none;
+}
+
+.robo-result-item.last {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#robo-data .robo-data {
+    padding-top: 20px;
+}
+
+.robo-data thead tr th {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.robo-data thead tr {
+    background: #F9F9F9;
+    border: 1px solid #e8e8e8;
+}
+
+.robo-data tbody tr th {
+    text-align: center;
+    border: 1px solid #ededed;
+    width: 250px;
+    padding: 0 5px;
+    color: #aaa9a9;
+    font-family: "Open Sans", sans-serif;
+}
+
+.robo-data td {
+    text-align: center;
+    border: 1px solid #ededed;
+    padding: 0;
+}
+
+.robo-data tfoot td {
+    text-align: left;
+    border: none;
+}
+
+.robo-data input[type="text"] {
+    padding-left: 15px;
+    padding-right: 5px;
+    text-align: left;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.robo-data select:focus,
+.robo-data input[type="text"]:focus {
+    outline: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.robo-data input[type="checkbox"] {
+    margin: 0;
+}
+
+.robo-results-details {
+    padding: 0 1px;
+}
+
+.robo-results-details a {
+    color: #828383;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 14px;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+/*RSPL Task#43*/
+.main-row a.robo-result-website-link {
+    /*width: 103px;*/
+    /* width: 80px;
+    height: 40px;
+    background: #F1674E;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 6px;
+    /*margin-left: 24px;*/
+    /* margin: 0 auto;
+    text-align: center; */
+}
+
+#robo-data input[type="text"] {
+    padding-left: 5px;
+}
+
+#robo-data table {
+    margin-bottom: 70px;
+}
+
+input[type="text"].numeric-input {
+    text-align: right !important;
+}
+
+#robo-data td.currency-value input {
+    width: 104px;
+}
+
+#robo-data td.number-value input {
+    width: 104px;
+}
+
+.robo-data td.radio-box {
+    text-align: left;
+}
+
+body.has-sidebar.single-robo-adviser #content {
+    width: 100%;
+}
+
+.robo-result-item [class*="results-table-summary-"] {
+    border: 1px solid #e2e2e2;
+
+}
+
+.hidden-opaque {
+    opacity: 0.5;
+}
+
+.robo-result-summary {
+    border: 1px solid #e2e2e2;
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+}
+
+.robo-yes-radio {
+    /* padding-right: 40px; */
+}
+
+.robo-with-me-radio {
+    /* padding-right: 13.25px; */
+}
+/*RSPL Task#43*/
+.cplat-robo-submit-form-container label.robo {
+    /*margin-top: 7px;*/
+    margin-top: 2px;
+}
+/*RSPL Task#43*/
+.cplat-robo-submit-form-container .row.indented .col-lg-12 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cplat-robo-submit-form-container .robo-wrapper .col-lg-6 label,
+.cplat-robo-submit-form-container .robo-wrapper .col-lg-7 label {
+    padding-left: 45px !important;
+}
+.cplat-robo-submit-form-container #robo-form .selectric .button {
+    width: 25px;
+}
+.cplat-robo-submit-form-container #robo-form .selectric {
+    max-width: 110px;
+}
+/*.cplat-robo-submit-form-container .row input:not(.continue) {
+    width: 110px !important;
+}*/
+
+/*RSPL Task#44*/
+.hint--top:after {
+    left: auto !important;
+    right: 30px !important;
+    bottom: -120% !important;
+}
+.hint--top:before {
+    border-left-color: #383838 !important;
+    border-top-color: transparent !important;
+    left: -12px !important;
+    bottom: 8px !important;
+}
+
+.redirect_to_platform_calculator p {
+    color: #404041;
+    /*font-weight: bold;*/
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.redirect_to_platform_calculator p a {
+    font-weight: bold;
+}
+/*RSPL Task#43*/
+.calculate-now-row {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.calculate-now-row .calculate-now {
+    padding: 10px 15px;
+    margin-right: 5px;
+    background: #77C79D;
+    border-radius: 0;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    float: none;
+}
+/*RSPL Task#48*/
+.robo-loading-update {
+    display: none;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+}
+.robo-loading-update .spinner {
+    margin: 20px auto 20px;
+}
+.robo-results-button-container .update-results{
+    padding: 10px 15px;
+    width: auto !important;
+    background: #77C79D;
+    border-radius: 0;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    float: none;
+}
+.robo-results-button-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cplat-robo-submit-form-container input[type="radio"] + label {
+    /*Modify these code as IE doesn't support unset properly*/
+    /*margin-right: unset !important;*/
+    /* margin-right: 0px !important;
+    width: 40% !important; */
+}
+.row.monthly_saving .col-lg-7 {
+    padding-left: 45px;
+}
+.cplat-robo-submit-form-container .lump_sum_val .col-lg-7 label,
+.cplat-robo-submit-form-container .monthly_saving_val .col-lg-7 label,
+.cplat-robo-submit-form-container .min_inv_val .col-lg-7 label {
+    /* padding-left: 45px !important; */
+}
+.cplat-robo-submit-form-container .help {
+    /* width: 24px !important;
+    height: 24px !important; */
+}
+.robo-calc-hidden-cls, .robo-single-field-hidden-cls {
+    display: none;
+}
+.final-row-continue {
+    display: none !important;
+}
+.robo-individual-field-hidden-cls1,
+.robo-individual-field-hidden-cls2,
+.robo-individual-field-hidden-cls3,
+.robo-individual-field-hidden-cls4,
+.robo-individual-field-hidden-cls5,
+.robo-individual-field-hidden-cls6,
+.robo-individual-field-hidden-cls7,
+.robo-individual-field-hidden-cls8,
+.robo-individual-field-hidden-cls9,
+.robo-individual-field-hidden-cls10,
+.robo-individual-field-hidden-cls11,
+.robo-individual-field-hidden-cls12,
+.robo-individual-field-hidden-cls13,
+.robo-individual-field-hidden-cls14,
+.robo-individual-field-hidden-cls15,
+.robo-individual-field-hidden-cls16,
+.robo-individual-field-hidden-cls17 {
+    display: none;
+}
+.cplat-robo-submit-form-container .main-row .bullet {
+    margin-left: 2px;
+}
+/*RSPL Task#55*/
+.hide_login_div_css {
+    display: none !important;
+}
+.tml-register #receive_info {
+    margin-bottom: 0px !important;
+    position: relative;
+    top: 0;
+}
+.tml-user-login-wrap {
+    margin-bottom: 0px !important;
+}
+.adviser_row_registration, .tml-register #hau {
+    margin-bottom: 20px;
+}
+.robo-adviser .cplat-infotable {
+    margin-bottom: 40px;
+}
+.cplat-robo-registration-form-container .register-container {
+    padding-top: 0px;
+}
+/*RSPL Task#55*/
+
+/*RSPL Task#59 Start */
+ .form-input-required {
+    color: red;
+}
+.hide_div_cls {
+    display: none !important;
+}
+@media (min-width: 1200px) {
+    .col-lg-6.expand_div_cls {
+        width: 100% !important;
+    }
+    .col-lg-6.expand_div_cls .tml.tml-login {
+        width: 50% !important;
+        margin: 0 auto;
+    }
+}
+/*RSPL Task#59 End */
+/*RSPL Task#61 Start */
+.custom-responsive{overflow-x:auto;}
+.modal-lg.custom-modal-lg{width:90%;}
+.print-btn-wrapper{text-align:center;margin-bottom:15px;}
+.print-btn-wrapper .results-print-btn{width:auto;background:#fff;}
+.print-result-modal .close{position: absolute;right: 15px;top: 15px;z-index: 1500}
+/*RSPL Task#61 Start */
+/*RSPL Task#70 Start */
+.platform-research-tools-label, .platform-research-tools-data {
+    margin-bottom: 0px !important;
+}
+/*RSPL Task#70 End */
+/*RSPL Task#71 Starts */
+.robo-comparisons-container,
+.robo-comapare-main-col {
+    min-width: 100px;
+}
+.robo-comapare-checkbox {
+    top: auto !important;
+    opacity: 1 !important;
+    margin-top: 15px !important;
+    position: relative !important;
+    height: 16px;
+}
+.robo-compare-btn-go.disabled {
+    /* width: auto !important;
+    margin: 0 10px !important;
+    padding: 10px 10px !important;
+    background: #F1674E !important;
+    border: 1px solid #F1674E;
+    color: white;
+    cursor: not-allowed;
+    pointer-events: none;
+    font-weight: normal !important; */
+}
+.robo-compare-btn-go {
+    /* width: auto !important;
+    margin: 0 10px !important;
+    padding: 10px 10px !important;
+    background: #77c79d !important;
+    border: 1px solid #77c79d;
+    color: white;
+    font-weight: normal !important;
+    cursor: pointer; */
+}
+.robo-compare-btn-go:hover {
+    color: white !important;
+}
+.cplat-infotable-robo-comparisons .charges-label {
+    font-size: 13px;
+}
+.available-products-table-robo-comparisons .robo-comparisons-img {
+    /*padding: 0 5px !important;*/
+}
+.charges-table-robo-comparisons .robo-comparisons-img {
+    /*padding: 0 25px !important;*/
+}
+.cplat-infotable-robo-comparisons .robo-comparisons-img img {
+    max-width: 101px;
+}
+.cplat-infotable-robo-comparisons td {
+    /*height: 75px !important;*/
+}
+.robo-compare-go-back-btn {
+    line-height: 30px;
+    background: #77c79d !important;
+    border: 1px solid #77c79d;
+    color: white;
+    padding: 1px 7px 2px;
+    display: inline-block;
+    height: 35px;
+    font-size: 13px;
+    /*float: right;*/
+    float: left;
+    margin-top: 15px;
+    /*width: 100%;*/
+    width: 115px;
+}
+.robo-compare-go-back-btn:hover {
+    color: white !important;
+}
+.results-table-robo-comparisons td.robo-comparisons-img,
+.rating-table-robo-comparisons td.robo-comparisons-img {
+    text-align: center;
+}
+.rating-table-robo-comparisons td {
+    text-align: center;
+}
+.results-table-robo-comparisons td.robo-comparisons-robo-results-container {
+    padding: 1em 0 2em 0 !important;
+}
+.results-table-robo-comparisons .results-table {
+    /*border-bottom: unset !important;*/
+    /*border-right: unset !important;*/
+    width: 95% !important;
+}
+.results-table-robo-comparisons .results-table .result-product-col {
+    width: 14%;
+}
+.charges-table-robo-comparisons td {
+    height: 90px;
+}
+.single-robo-adviser td {
+    text-align: center;
+}
+/*RSPL Task#71 Ends */
+/*RSPL Task#82 & Task#91 Starts */
+.charges-table-robo-comparisons .tr-stripe-grey,
+.rating-table-robo-comparisons .tr-stripe-grey {
+    background-color: #f8f8f8 !important;
+}
+.charges-table-robo-comparisons .tr-stripe-white,
+.rating-table-robo-comparisons .tr-stripe-white {
+    background-color: #ffffff !important;
+}
+.charges-table-robo-comparisons .note-row,
+.rating-table-robo-comparisons .note-row {
+    border-top: unset !important;
+}
+/*RSPL Task#82 & Task#91 Ends */
+/*RSPL Task#101 Starts */
+.robo-page-intro-section-cls {
+    padding: 0 !important;
+}
+/*RSPL Task#101 Ends */
+/*RSPL Task#100 Starts */
+.page-template-template-news-blog .widget_lc_taxonomy {
+    display: none !important;
+}
+/*RSPL Task#100 Ends */
+/*RSPL Task#113 Starts */
+.fusion-page-title-secondary {
+    float: right;
+}
+.page-template-template-calculator-user-submit input[type='text'],
+.page-template-template-calculator-user-submit textarea {
+    color: #aaa9a9 !important;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #aaa9a9 !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+    color: #aaa9a9 !important;
+}
+
+::placeholder {
+    color: #aaa9a9 !important;
+}
+.wpcf7-form-control-wrap.quiz-172:first-child {
+    display: none !important;
+}
+#investments-over, #investments-in-x-years {
+    pointer-events: none !important;
+    width: 68px !important;
+}
+/*RSPL Task#121 Starts */
+.page-template-template-calculator-user-submit #main {
+    background: #F2F2F2 !important;
+}
+/*RSPL Task#121 Ends */
+/*RSPL Task#113 Starts */
+
+@media (min-width: 1200px) {
+    .short_login_form .tml.tml-login {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .short_login_form.col-lg-6 {
+        width: 100% !important;
+    }
+    /*RSPL Task#86 Starts */
+    .question-label-2a {
+        margin-bottom: 40px !important;
+    }
+    /*RSPL Task#86 Ends */
+}
+/*RSPL Task#44*/
+@media screen and (max-width: 1200px) {
+    .cplat-robo-submit-form-container .robo-wrapper .col-lg-6 label,
+    .cplat-robo-submit-form-container .robo-wrapper .col-lg-7 label {
+        padding-left: 0px !important;
+    }
+}
+/*RSPL Task#43*/
+@media screen and (max-width: 1199px) {
+    .cplat-robo-submit-form-container input[type="radio"] + label {
+/*        width: 13% !important;*/
+    }
+}
+/*RSPL Task#43*/
+@media screen and (max-width: 950px) {
+    .cplat-robo-submit-form-container input[type="radio"] + label {
+/*        width: 20% !important;*/
+    }
+}
+/*RSPL Task#43*/
+/*RSPL Task#113 Starts*/
+@media screen and (max-width: 980px) {
+    body.home .cp-promo-bar .cp-promo-bar-left {
+        margin: 0 auto !important;
+    }
+    body.home .cp-promo-bar .cp-promo-bar-right {
+        margin: 0 auto !important;
+        float: none;
+    }
+}
+/*RSPL Task#113 Ends*/
+    @media screen and (max-width: 875px) {
+    .cplat-robo-submit-form-container div.result-main-col {
+        /*RSPL Task#71 Starts*/
+        /*width: 120px !important;*/
+        width: 95px !important;
+        /*RSPL Task#71 Ends*/
+    }
+}
+/*RSPL Task#43*/
+@media screen and (max-width: 825px) {
+    .cplat-robo-submit-form-container div.result-main-col {
+        /*RSPL Task#71 Starts*/
+        /*width: 110px !important;*/
+        width: 90px !important;
+        /*RSPL Task#71 Ends*/
+    }
+}
+/*RSPL Task#43*/
+@media screen and (max-width: 800px) {
+    .cplat-robo-submit-form-container div.result-main-col {
+        /*RSPL Task#71 Starts*/
+        /*width: 92px !important;*/
+        width: 85px !important;
+        /*RSPL Task#71 Ends*/
+    }
+}
+/*RSPL Task#71 Starts*/
+@media screen and (max-width: 770px) {
+    .cplat-robo-submit-form-container div.result-main-col {
+        width: 80px !important;
+    }
+}
+@media screen and (max-width: 745px) {
+    .cplat-robo-submit-form-container div.result-main-col {
+        width: 75px !important;
+    }
+}
+/*RSPL Task#71 Ends*/
+/*RSPL Task#43*/
+@media screen and (max-width: 720px) {
+    .main-row a.robo-result-website-link {
+        margin: 20px auto 0;
+    }
+    .cplat-robo-submit-form-container .robo-result-item .result-main-col, .result-main-col:last-child, .result-main-col {
+        float: none;
+        width: 100% !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+/*RSPL Task#43*/
+@media screen and (max-width: 550px) {
+    .cplat-robo-submit-form-container input[type="radio"] + label {
+        width: 35% !important;
+    }
+    /*RSPL Task#101 Starts */
+    .robo-page-intro-section-cls .align-center-mobile {
+        display: block;
+        float: none;
+        margin: 0 auto 20px;
+    }
+    /*RSPL Task#101 Ends */
+    /*RSPL Task#113 Starts*/
+    body.home .cp-promo-bar .cp-promo-bar-right a.cp-button {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 220px;
+    }
+        /*RSPL Task#113 Ends*/
+}
+/*RSPL Task#43*/
+@media screen and (max-width: 400px) {
+    .cplat-robo-submit-form-container input[type="radio"] + label {
+        width: 40% !important;
+    }
+}
+
+/* HTB ADDED 12072023 */
+.results-product-row {
+    overflow: auto;
+    max-width: 310px;
+    width: 100%;
+}
+.results-product-row .result-product-col {
+    padding-right: 20px;
+    padding-left: 20px;
+        width: auto!important;
+}
